@@ -178,6 +178,19 @@ a {
     align-items: center;
 }
 
+.clients .images a {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 0 42px;
+    border-radius: 12px;
+    /* background-color: #ccc; */
+}
+
+.clients .images a:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
 /* ============ Guides =========== */
 .guides {
     padding: 93px 0 79px;
