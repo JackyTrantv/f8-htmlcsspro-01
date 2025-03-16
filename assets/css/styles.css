@@ -13,6 +13,11 @@ html {
     font-size: 62.5%;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
@@ -69,6 +74,8 @@ a {
 }
 .hero-wrap {
     position: relative;
+    display: flex;
+    align-items: center;
     background-color: #e6f0ff;
     height: calc(100vh - 90px);
 }
@@ -113,10 +120,6 @@ a {
 }
 
 /* Hero */
-
-.hero {
-    padding-top: 130px;
-}
 
 .hero .info {
     width: 51%;
